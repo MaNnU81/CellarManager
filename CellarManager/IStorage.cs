@@ -9,7 +9,7 @@ namespace CellarManager
 {
     internal interface IStorage
     {
-        public void SaveAllBeverages(List<Beverage> beverages);
         public List<Beverage> LoadAllBeverages();
+        public void SaveAllBeverages(List<Beverage> beverages);
     }
 }
